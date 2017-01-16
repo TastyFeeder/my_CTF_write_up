@@ -20,6 +20,7 @@ team member
 先讀60byte，蓋20個後跳到mov ecx,esp（0x08048087）
 會leak stack address
 然後再塞入shellcode，get shell
+
 ```python=
 from pwn import *
 import time
@@ -68,6 +69,7 @@ if __name__ == '__main__':
     r.interactive()
 	r.close()    
 ```
+
 >CTF{Z3r0_1s_st4rt}
 
 
@@ -78,6 +80,7 @@ if __name__ == '__main__':
 
 $ strings env.exe
 拿到source:
+
 ```
  <COMPILER: v1.1.24.04>
 :O:@a::04
@@ -118,6 +121,7 @@ $ strings env.exe
 :O:@9::15
 :O:@_::e4
 ```
+
 把flag.enc 裡的
 "d105bee6d1e4fa983b37092298fae422090937e47fe6faa9bee45a05a92298fa" 照上面對照decode完得到FLAG.
 > CTF{l0c4l_stud3nts_n33d_b4sic_p0ints}
