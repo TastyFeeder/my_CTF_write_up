@@ -2,6 +2,7 @@ Ais3- pre-exam 2017
 ===
 ## Team: TastyFeeder final score: 31
 #### 有些題目忘記QAQ，感謝[vest12385](https://github.com/vest12385/AIS3-pre-exam-2017/tree/master/misc/1)在github有把所有題目放出來
+#### 檔案可能沒有很完整，請參考上面大大的github
 
 
 Misc 1 (1pt)
