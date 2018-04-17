@@ -2,3 +2,4 @@
 *.out
 *.idb
 *.txt
+*.gdb_history
