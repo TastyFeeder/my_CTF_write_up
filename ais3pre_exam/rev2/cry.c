@@ -13,12 +13,16 @@ int main()
     ptr = (int*)flag;
 //    int key = result[0] ^ ptr[0];
 //    unsigned int t =1499400561;
+    int count = 86400;
+    while(count >0){
+    
     srand(1499400561);
     for (int i = 0 ; i< 4;i++){
         flag[i] = rand() ^ flag[i]; 
     }
     flag[4] = '\0';
     printf("%d  %d\n",*flag,flag[1]);
+}
 /*
     while(1){
         srand(t);
